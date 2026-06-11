@@ -6,6 +6,8 @@
   <title>Covid-19 Awareness Landing Page</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-family-awesome/6.4.0/css/all.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
     body { font-family: 'Poppins', sans-serif; }
@@ -21,9 +23,15 @@
         <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
           <a href="#" class="text-purple-700">Home</a>
           <a href="#" class="hover:text-purple-700 transition">Reports</a>
+          <a href="#" class="hover:text-purple-700 transition">Centers</a>
           <a href="#" class="hover:text-purple-700 transition">About</a>
           <a href="#" class="hover:text-purple-700 transition">Symptoms</a>
           <a href="#" class="hover:text-purple-700 transition">Contact</a>
+        </div>
+
+        <!-- Menu Toggle -->
+        <div class="menu-toggle md:hidden">
+          <i class="fa-solid fa-bars text-purple-700 text-xl cursor-pointer"></i>
         </div>
       </nav>
     </div>
